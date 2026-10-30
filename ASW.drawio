@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="X-5bPbis_h2r6eVOIicW">
-    <mxGraphModel>
+    <mxGraphModel dx="1285" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="190" width="1080" x="30" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#000000;" value="&lt;b&gt;RTE&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="1080" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#D6EAD5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="250" width="1080" x="30" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="ASW" vertex="1">
+          <mxGeometry height="20" width="40" x="30" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="BSW" vertex="1">
+          <mxGeometry height="20" width="40" x="30" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PWM" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ADC" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UART" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IMU" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GPIO" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="STM32" vertex="1">
+          <mxGeometry height="170" width="170" x="860" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="ESP32" vertex="1">
+          <mxGeometry height="170" width="170" x="1133.24" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Battery 12V DC" vertex="1">
+          <mxGeometry height="60" width="450" x="715" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-20" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="70" width="160" x="1190" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-17" parent="7cv5j91U9QzDikz2Mvqn-20" style="rounded=0;whiteSpace=wrap;html=1;" value="DC motor" vertex="1">
+          <mxGeometry height="70" width="103.52941176470587" x="56.470588235294116" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-19" parent="7cv5j91U9QzDikz2Mvqn-20" style="rounded=0;whiteSpace=wrap;html=1;" value="Encoder" vertex="1">
+          <mxGeometry height="70" width="56.470588235294116" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-21" connectable="0" parent="1" style="group;flipV=1;legacyAnchorPoints=0;flipH=1;" value="" vertex="1">
+          <mxGeometry height="70" width="160" x="530" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-22" parent="7cv5j91U9QzDikz2Mvqn-21" style="rounded=0;whiteSpace=wrap;html=1;" value="DC motor" vertex="1">
+          <mxGeometry height="70" width="103.52941176470587" x="1.4210854715202004e-14" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-23" parent="7cv5j91U9QzDikz2Mvqn-21" style="rounded=0;whiteSpace=wrap;html=1;" value="Encoder" vertex="1">
+          <mxGeometry height="70" width="56.470588235294116" x="103.52941176470588" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="H-Bridge" vertex="1">
+          <mxGeometry height="70" width="103.53" x="530" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="H-Bridge" vertex="1">
+          <mxGeometry height="70" width="103.53" x="1241" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DC-DC&lt;div&gt;12V to 3.3V&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="7cv5j91U9QzDikz2Mvqn-29" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="MPU" vertex="1">
+          <mxGeometry height="80" width="80" x="650" y="710" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
